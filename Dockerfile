@@ -1,4 +1,4 @@
-M openjdk:8-slim
+FROM openjdk:8-slim
 RUN mkdir /application
 WORKDIR /application
 COPY ./target/*.jar .
